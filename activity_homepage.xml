@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:background="@color/green"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="110dp"
+        android:drawableLeft="@drawable/p3"
+        android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+        android:text="Account"
+        android:textSize="30dp"
+        android:textColor="@color/cream"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/p3"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:text="     My Profile"
+            android:textColor="@color/green"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/del2"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:text="     Deliveries"
+            android:textColor="@color/green"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/l3"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:text="     Change Password"
+            android:textColor="@color/green"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/pay2"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:text="     Payments"
+            android:textColor="@color/green"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/notif2"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:text="     Notification"
+            android:textColor="@color/green"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/notif2"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:text="     Contact Preferences"
+            android:textColor="@color/green"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/setting2"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:text="     Settings"
+            android:textColor="@color/green"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/que2"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:text="     Help and FAQs"
+            android:textColor="@color/green"></TextView>
+        <Button
+
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green"
+            android:onClick="exitToLogin"/>
+
+    </LinearLayout>
+    </LinearLayout>
