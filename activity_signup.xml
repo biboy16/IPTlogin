@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="0dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="@color/green">
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/e2"
+        android:hint="Email"
+        android:inputType="text"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        android:hint="Mobile"
+        android:inputType="text"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/p2"
+        android:hint="Username"
+        android:inputType="text"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/l2"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/cream"
+        android:text="I agree in the terms and conditions"
+        android:textColor="@color/white"
+        app:buttonIcon="@drawable/baseline_check_box_24"
+        app:buttonIconTint="#F7BF68" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:onClick="onSignUpClick"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/green"
+        android:backgroundTint="@color/cream"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="I already have an account."
+        android:textColor="@color/white"
+        android:layout_marginLeft="110dp"
+        android:onClick="exitToLogin"/>
+
+
+
+</LinearLayout>
