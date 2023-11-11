@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:background="@color/green">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/baseline_ac_unit_24"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/p2"
+        android:hint="Username"
+        android:inputType="text"
+        android:textColor="@color/cream"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/l2"
+        android:drawableRight="@drawable/baseline_remove_red_eye_24"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/cream"
+        android:textColorHint="@color/white" />
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Forgot Password?"
+        android:textColor="@color/white"
+        android:layout_marginLeft="130dp"/>
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onLoginClick"
+        android:text="Login"
+        android:textColor="@color/green"
+        android:backgroundTint="@color/cream"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="No Account? Create One"
+        android:textColor="@color/white"
+        android:layout_marginLeft="110dp"/>
+
+
+</LinearLayout>
